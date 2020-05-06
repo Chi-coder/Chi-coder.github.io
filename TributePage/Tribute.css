@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  text-decoration: rgb(56, 130, 160);
+  text-size-adjust: 100%;
+  /* background color was generated using a gradient generator */
+  background-color: -webkit-linear-gradient(
+    left,
+    rgba(200, 193, 204, 1) 0%,
+    rgba(233, 233, 206, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(200, 193, 204, 1) 0%,
+    rgba(233, 233, 206, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c1cc', endColorstr='#e9e9ce',GradientType=1 ); /* IE6-9 */
+}
+#title {
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rebeccapurple;
+  color: royalblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  text-shadow: 2px 2px 5px rebeccapurple;
+}
+p {
+  font-size: 150%;
+  line-height: 2rem;
+  /* The font below was copied from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+img {
+  width: auto;
+  display: inline-block;
+  border: 10px solid rgb(78, 48, 109);
+  border-radius: 10px;
+  border-style: groove;
+}
+a {
+  font-size: 20px;
+  background-color: rgb(187, 148, 199);
+  font-weight: bold;
+  border-radius: 5px;
+}
+@media screen and {
+  min-width: 100%;
+}
+/* The line of code above is a media query: it enables seamless viewing of content across devices with different screen sizes */
