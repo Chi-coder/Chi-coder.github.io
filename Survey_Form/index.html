@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SURVEY FORM</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cuprum&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="heading" id="heading">
+    <h1>Chino-Tech Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </div>
+  
+  <div class="survey_wrapper">
+  <form id="survey-form" action="">
+    
+    <div class="label_box">
+    <label for="name-label">Name</label>
+    <br>
+    <input type="text" name="name"
+    placeholder="Enter your name" id="name">
+  </div>
+
+    <div class="label_box">
+    <label for="email-label">Email</label>
+    <br>
+    <input type="email" name="email"
+    placeholder="Enter your @mail" id="email">
+  </div>
+
+    <div class="label_box">
+    <label for="number-label">Number</label>
+    <br>
+    <input type="number" name="number"
+    placeholder="Enter your number" id="number" max="11" >
+  </div>
+
+    <div class="role_box">
+    <p>Which option best describes your current role?</p>
+    <select name="roles" id="roles">
+    <option>Select current role</option>
+    <option value="student">Student</option>
+    <option value="full time job" >Full Time Job</option>
+    <option value="retired">Retired</option>
+    <option value="other">Other</option>
+    </select>
+  </div>
+
+    <div class="recommendation_box">
+    <p>Would you recommend Chino-Tech to a friend?</p>
+    <input type="radio" name="recommendation" id="" value="Definitely">Definitely
+    <input type="radio" name="recommendation" id="" value="Maybe">Maybe
+    <input type="radio" name="recommendation" id="" value="Not sure">Not Sure
+  </div>
+
+  <div class="feature_box">
+    <p>What is your favourite feature of Chino-Tech?</p>
+    <select name="features" id="">
+      <option value="">Select an option</option>
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="open source">Open Source</option>
+      </select>
+    </div>
+
+      <div class="improve_box">
+      <p id="improve_box">What would you like to see improved?<br>
+      (Check all that apply)</p>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Front-end Projects
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Back-end Projects
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Data Visualization
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Challenges
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Open Source Community
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Community Help Rooms
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Videos
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">City Meetups
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Wiki
+      <br>
+      <input type="checkbox" value="Front-end Projects" name="opinions" id="checkbox">Additional Courses
+    </div>
+
+      <div class="comment_box">
+      <p id="comment">Any comments or suggestions?</p>
+      <textarea 
+      name="comments" 
+      id="textarea_box" 
+      cols="30" 
+      rows="5"
+      placeholder="Enter your comment here..." ></textarea>
+    </div>
+    <div id="submit_box">
+    <button type="submit" id="submit_button" class="submit_button">Submit</button></div>
+      <p id="copyright">copyright&copy 2020</p>
+      
+  </form>
+  </div>
+</body>
+</html>

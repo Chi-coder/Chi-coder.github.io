@@ -1,0 +1,175 @@
+/* GLOBAL STYLE */
+
+html{
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+  background-color: #25257dd8; 
+}
+
+/* HEADING STYLE START */
+.heading {
+  color: #ffffff;
+  text-align: center;
+  background-color: #25257d87 ;
+  padding: 10px;
+}
+
+div h1{
+  font-size: 5vw;
+  padding: 20px 0px;
+}
+
+#description {
+font-style: italic;
+font-weight: bold;
+}
+/* HEADING STYLE END */
+
+/* SURVEY_WRAPPER STYLE  START */
+.survey_wrapper {
+  width: 80%;
+  padding:0 15px;
+  margin:30px auto 10px;
+  border-radius: 10px;
+  color: #DEDEE5;
+  background-color: #070709e4;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+/* SURVEY_WRAPPER STYLE  END */
+
+
+/* FORM STYLE  START */
+
+.label_box{
+  margin: 16px;
+  font-weight: bold;
+}
+
+.role_box, .recommendation_box, .feature_box, .improve_box {
+  padding:15px 15px;
+  font-weight: bold;
+
+}
+
+.improve_box{
+  padding: 10px 15px;
+}
+/* FORM STYLE  END */
+
+/* COMMENT_BOX STYLE START */
+
+.comment_box{
+  display: inline-block;
+  padding:20px 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+span {
+  
+  font-weight: bold;
+  font-size: 2.8vw;
+}
+
+#textarea_box{
+font-size: 1em;
+padding: 8px;
+width: 100%;
+}
+
+/* COMMENT_BOX STYLE END */
+
+/* BUTTON STYLE START */
+#submit_box{
+  text-align: center;
+}
+.submit_button {
+background-color: #25257D;
+color: #ffffff;
+padding: 5px;
+text-transform: uppercase;
+font-size: 2em;
+font-family: 'Anton', sans-serif;
+letter-spacing: 3px;
+border: 2px solid white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit_button:hover {
+  background-color: #FF2300;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  width: 50%;
+}
+
+#copyright{
+  text-align: center;
+}
+/* BUTTON STYLE END */
+
+
+@media (min-width: 800px){
+  body {
+  background:rgba(22, 143, 167, 0.575) ;
+  }
+
+  /* SURVEY_WRAPPER */
+  .survey_wrapper {
+    margin:50px auto 20px;
+    background-color: rgba(0, 0, 0, 0.739);
+    color:#ffffff;
+    width: 80vw;
+    padding: 20px;
+    font-size: 1.5em ;
+    line-height: 1.8;
+  }
+
+
+  /* COMMENT_BOX STYLE */
+.comment_box{
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin:auto;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#textarea_box{
+  font-size: 1em;
+  padding: 8px;
+}
+/* HEADING STYLE */
+
+.heading {
+  background-color: rgba(0, 50, 59, 0.801);
+  color:#ffffff;
+}
+
+div h1{
+  font-size: 5em;
+}
+
+#description {
+  font-style: italic;
+  font-size: 1.6em;
+  font-weight: inherit;
+}
+}
