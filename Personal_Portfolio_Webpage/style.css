@@ -202,13 +202,14 @@ img {
 }
 
 .contact_section_header > h2{
-    font-size: 5rem;
+    font-size: 8rem;
     font-family: 'Italianno', cursive;
 }
 
 .contact_section_header > p {
     font-style: italic;
     font-family: 'Baloo Da 2', cursive;
+    font-size: 5rem;
 }
 
 .contact_links {
