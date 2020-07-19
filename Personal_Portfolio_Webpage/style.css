@@ -12,12 +12,11 @@ html {
 
 /* MAIN PRIMARY COLORS */
 :root {
-    --main-color-1: #C00D43;	
-    --main-color-2: #fdfbfc;
-    --main-color-3: #0B0205;
-    --main-color-4: #46202C;
-    --main-color-5: #3B0012;
-
+    --brandcolor1: #6fb3e7;
+    --brandcolor2: #ffffff;
+    --brandcolor3: #065c69;
+    --brandcolor4: #f6690b;
+    --brandcolor5: #022e41;
 }
 
 
@@ -27,7 +26,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
-    color: var(--main-color-2);
+    background-color: var(--brandcolor1);
+    color: var(--brandcolor2);
     line-height: 1.4;
 }
 
@@ -52,7 +52,7 @@ ul{
 
 a {
     text-decoration: none;
-    color: var(--main-color-2);
+    color: var(--brandcolor2);
 }
 
 img {
@@ -68,8 +68,8 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-color-1);
-    box-shadow: 0 7px 0 #3B0012;
+    background: var(--brandcolor1);
+    box-shadow: 0 7px 0 #4c05ff;
     z-index: 10;
 }
 
@@ -85,7 +85,7 @@ img {
 }
 
 .nav-list a:hover {
-    background: var(--main-color-5);
+    background: #2658f0;
 }
 
 /* WELCOME TEXT STYLE */
@@ -96,8 +96,8 @@ img {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: var(--main-color-4);
-    background-image: linear-gradient(7deg, #948a8f4a 0%, #0e40c03e 100%);
+    /*  */
+    /* background-image: linear-gradient(80deg, #88a885 50%, #e8f6ff 50%); */
 }
 
 .welcome_section > p {
@@ -106,7 +106,7 @@ img {
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-color-1);
+    color: var(--brandcolor5);
 }
 
 /* PROJECT TILES STYLE */
@@ -114,14 +114,16 @@ img {
 .projects_section {
     text-align: center;
     padding: 10rem 6rem;
-    background: var(--main-color-4);
+    background: var(--brandcolor3);
+    box-sizing: border-box;
+    border-radius: 10px 80px;
 }
 
 .projects_section_header {
     max-width: 100vw;
     font-size: 2.5vw;
     margin: 0 auto 6rem auto;
-    border-bottom: 1rem double var(--main-color-2);
+    border-bottom: 1rem double var(--brandcolor1);
 }
 
 .projects_grid{
@@ -136,19 +138,19 @@ img {
 }
 
 .project_tile {
-    background: var(--main-color-5);
+    background: var(--brandcolor1);
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
     border-radius: 3px;
 }
 
 .code {
-    color: var(--main-color-5);
+    color: var(--brandcolor1);
     transition: color 0.3s ease-out;
 
 }
 
 .project_tile:hover .code{
-    color: #fbff0c;
+    color: #0f0488;
 }
 
 .project_image {
@@ -170,12 +172,12 @@ img {
 
 .button_show_all {
     font-size: 2rem;
-    background: var(--main-color-5);
+    background: var(--brandcolor1);
     transition: background 0.2s ease-out;
 }
 
 .button_show_all:hover {
-    background: var(--main-color-1);
+    background: var(--brandcolor4);
 }
 
 .button_show_all:hover > i {
@@ -198,18 +200,19 @@ img {
     text-align: center;
     height: 70vh;
     padding: 0 3rem;
-    background: var(--main-color-5);
+    background:var(--brandcolor1);
+    color: var(--brandcolor5);
 }
 
 .contact_section_header > h2{
-    font-size: 6rem;
+    font-size:7vw;
     font-family: 'Italianno', cursive;
 }
 
 .contact_section_header > p {
     font-style: italic;
     font-family: 'Baloo Da 2', cursive;
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 .contact_links {
@@ -220,17 +223,19 @@ img {
     margin-top: 5rem;
     flex-wrap: wrap;
     
+    
 }
 
 .contact_details {
     font-size: 2.4rem;
     text-shadow: 2px 2px 1px #2e2c2d;
     transition: transform 0.3s ease-out;
+    color:var(--brandcolor2);
 }
 
 .contact_details:hover {
     transform: translateY(8px);
-    color: #fbff0c;
+    color:var(--brandcolor4);
     
 }
 
@@ -240,6 +245,5 @@ footer {
     font-weight: 400;
     text-align: center;
     padding: 2rem;
-    background: var(--main-color-4);
-    border-top: 8px solid var(--main-color-1);
+    background: var(--brandcolor3);
 }
